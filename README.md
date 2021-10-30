@@ -4,7 +4,16 @@ So the Setup is really easy.
 
 First install Python3 or make sure it is installed
 
-First you have to install all Requirements (requirements.txt)
+First you have to install all Requirements on your Server:
+```
+pip install matplotlib
+pip install numpy
+pip install asyncio
+pip install discord.py
+pip install pathlib
+```
+
+If this command dont work try to replace "pip" with "pip3"
 
 Then you have to Create a Bot in the Discord-Developer Portal.
 
