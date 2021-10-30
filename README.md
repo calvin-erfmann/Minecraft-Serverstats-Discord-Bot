@@ -1,5 +1,12 @@
 Hey Thanks for reading me.  Warning: My English is not the best
 
+
+I have programmed this bot to show me statistics about the player numbers and ping of my Minecraft server on a Discord server. Yes I love statistics XD.
+
+And I thought this bot could be useful for others too.
+
+This bot uses Python3 and Discord.py
+
 So the Setup is really easy.
 
 First install Python3 or make sure it is installed
