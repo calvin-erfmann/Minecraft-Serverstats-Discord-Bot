@@ -32,7 +32,7 @@ import json
 #enter your information here
 serverip = "play.spaffel.de"
 port = "25565"
-bottoken = "ODY3MTkzNDc2MDYzODIxODQ1.YPdi3A.mM9LsjqUboQaSH7uxtT-EXzEtrc"
+bottoken = "yourbottoken"
 
 
 
