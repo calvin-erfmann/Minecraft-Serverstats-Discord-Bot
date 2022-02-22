@@ -69,7 +69,7 @@ async def collectdata():
         "port": port
             }
 
-        url = 'http://api.spaffel.de:3667/getdata'
+        url = 'http://cloud.spaffel.de:25578/getdata'
         
         s = requests.Session()
         s.headers.update({"ip" : serverip, "port": port })
