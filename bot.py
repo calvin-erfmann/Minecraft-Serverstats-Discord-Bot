@@ -32,7 +32,7 @@ import json
 #enter your information here
 serverip = "play.spaffel.de"
 port = "25565"
-bottoken = "your-bot-token"
+bottoken = "ODY3MTkzNDc2MDYzODIxODQ1.YPdi3A.mM9LsjqUboQaSH7uxtT-EXzEtrc"
 
 
 
@@ -69,7 +69,7 @@ async def collectdata():
         "port": port
             }
 
-        url = 'http://cloud.spaffel.de:25578/getdata'
+        url = 'http://hosting.spaffel.de:25578/getdata'
         
         s = requests.Session()
         s.headers.update({"ip" : serverip, "port": port })
@@ -108,14 +108,15 @@ async def pcount(ctx):
     "ip": serverip,
     "port": port
         }
-
-    url = 'http://cloud.spaffel.de:25578/getdata'
+    #dont change this
+    url = 'http://hosting.spaffel.de:25578/getdata'
     
     s = requests.Session()
     s.headers.update({"ip" : serverip, "port": port })
     response = requests.post(url, headers = headers)
-
+    print(response.text)
     response = json.loads(response.text)
+    print(response)
     players =response['players']
     ping = response['ping']
     print('hhh')
@@ -256,7 +257,5 @@ client.run(bottoken)
 
 
             
-
-
 
 
